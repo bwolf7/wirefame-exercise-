@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    ;
+  }
+  
+  header { 
+    height: 300px;
+    width: 100vw;
+    padding: 0 100px;
+    box-sizing: border-box;
+    background-color: beige;
+  }
+  
+  header h1, header nav {
+    display: inline-block;
+    width: 49%;
+  }
+  
+  main {
+    height: calc(100vh - 300px);
+    padding: 20px 100px;
+    box-sizing: border-box;
+  }
+  
+  .card {
+    width: 300px;
+    height: 375px;
+    display: inline-block;
+    padding: 5%;
+    margin: 2%;
+    border: solid black 1px;
+ 
+  }
+  
+  .card-body {
+    height: 75%;
+    overflow: scroll;
+    background-color: biege;
+  }
+  
+  .card-header h3 {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    background-color: beige;
+    border: black solid 1px;
+
+  }
+
+  #navid{
+      padding: 1px;
+  }
+
+  #main-row2{
+      margin-left: 2%;
+      
+      
+  }
+   #featured-item-text{
+      padding-left: 55%;
+      position: relative;
+      bottom: 400px;
+      width:400px;
+
+  } 
+
+  #footer{
+      position: relative;
+      top: 475px;
+      left: 0px;
+      
+  }
+
+  #button:hover{
+    background-color: #3e8e41
+  }
+
